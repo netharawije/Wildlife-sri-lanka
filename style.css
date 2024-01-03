@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(sri-lankan-leopard-yala.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height:2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color:beige;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+
+nav .fa{
+    display: none;
+}
+
+@media(max-width:700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;    
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+}
+nav.fa{
+     display: block;
+     color: #fff;
+     margin: 10px;
+     font-size: 22px;
+     cursor: pointer;
+
+}
+.nav-links ul{
+    padding: 30px;
+}
+
+
+
+.introduction{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.introduction p{
+    padding-bottom: 0%;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+}
+p{
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 40px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.OWL{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 9rem;
+}
+.udawalawe-img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*footer*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgba(7, 65, 60,0.7);
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 20px;
+}
+.icons{
+    color: #ffffff;
+    margin: 0 13px;
+    cursor: pointer;
+    padding:  18px 0;
+}
+
+.footer p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction.col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left ;
+}
+  
+.introduction.col p{
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 30px;
+}
+  
+.introduction.col h2{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 600;
+    position: relative;
+    background: rgb(27, 27, 27, .5);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* introduction */
+
+.header2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Wild-Life.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/*dwc*/ 
+.header3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(dwc\ image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/*leapord*/
+
+.header4{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(forest.leapord.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/*animals*/
+
+
+
+.header5{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(animals_elephant.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/*parks*/
+
+.header6{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(safari.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
